@@ -17,10 +17,16 @@ var language;
 console.log(typeof isIsland, population, country, language);
 language = "Hindi";
 console.log(language);
-population = "1.5 billion";
+
 
 const nameFirst = "Shraddha";
 const lastName = "Pratyaksh";
 console.log(nameFirst+' '+ lastName);
+//2 ** 3 means 2 to the power of 3 = 2*2*2
 
+const ageabc = "32";
+const agexyz = "43";
+console.log(ageabc > agexyz);
+const isFullAge = ageabc > agexyz;
+console.log(isFullAge);
  
