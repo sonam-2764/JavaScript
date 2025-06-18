@@ -17,4 +17,10 @@ var language;
 console.log(typeof isIsland, population, country, language);
 language = "Hindi";
 console.log(language);
-population = 1;
+population = "1.5 billion";
+
+const nameFirst = "Shraddha";
+const lastName = "Pratyaksh";
+console.log(nameFirst+' '+ lastName);
+
+ 
