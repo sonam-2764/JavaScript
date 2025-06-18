@@ -7,7 +7,7 @@ console.log(firstName);
 
 let country = "India";
 let continent ="Asia";
-const population = "1.4 billion";
+const population = "1400000000";
 console.log(country);
 console.log(continent);
 console.log(population);
@@ -29,4 +29,15 @@ const agexyz = "43";
 console.log(ageabc > agexyz);
 const isFullAge = ageabc > agexyz;
 console.log(isFullAge);
+
+let population2 = population/2;
+console.log(population2);
+
+console.log(population2 + 1);
+const populationFinland = "6000000";
+console.log(population2 > populationFinland);
+const avgpopulation = "33000000";
+console.log(population2 < avgpopulation);
+let description = "Portugal is in Europe, and its 11 million people speak Portuguese";
+console.log(description);
  
