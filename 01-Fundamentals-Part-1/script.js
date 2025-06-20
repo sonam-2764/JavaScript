@@ -62,3 +62,21 @@ heightOfJohn = 1.76;
 
  console.log(BMIOfMark, BMIOfJohn, markHigherBMI);
 
+ const myName = "Maitri";
+ const job = "student";
+ const birthyear = 2005;
+ const year = 2025;
+ const Maitri = "I'm " + myName + ',a '+ (year-birthyear) +' years old '+ job +'!';
+ console.log(Maitri);
+// for using template literals we need to use the symbol above the tab button 
+const MaitriNew = `I'm ${myName}, a ${year-birthyear} years old ${job}!`;
+console.log(MaitriNew);
+console.log(`Just a regular string...`);
+console.log('String with \n\
+multiple \n\
+lines');
+console.log(`String 
+multiple
+lines 
+using 
+this button`);
