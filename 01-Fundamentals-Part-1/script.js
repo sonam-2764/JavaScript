@@ -41,3 +41,24 @@ console.log(population2 < avgpopulation);
 let description = "Portugal is in Europe, and its 11 million people speak Portuguese";
 console.log(description);
  
+
+var massOfMark = 78;
+var heightOfMark = 1.69;
+var massOfJohn = 92;
+var heightOfJohn = 1.95;
+
+var BMIOfMark = massOfMark / heightOfMark ** 2;
+var BMIOfJohn = massOfJohn / (heightOfJohn * heightOfJohn);
+
+let markHigherBMI = BMIOfMark > BMIOfJohn;
+console.log(BMIOfMark, BMIOfJohn, markHigherBMI);
+
+massOfMark = 95;
+heightOfMark = 1.88;
+massOfJohn = 85;
+heightOfJohn = 1.76;
+ BMIOfMark = massOfMark / heightOfMark ** 2;
+ BMIOfJohn = massOfJohn / (heightOfJohn * heightOfJohn);
+
+ console.log(BMIOfMark, BMIOfJohn, markHigherBMI);
+
