@@ -80,3 +80,19 @@ multiple
 lines 
 using 
 this button`);
+
+/*const age = 19;
+const isOldEnough = age >= 18;
+if(isOldEnough){
+    console.log("Maitri can drive🚗");// windows + . = emoji
+} 
+    or*/
+
+const age = 15;
+
+if(age>=18){
+    console.log("Maitri can drive🚗");// windows + . = emoji
+} else{
+    const yearsLeft = 18- age;
+    console.log(`maitri can drive after ${yearsLeft} years `);
+}
