@@ -111,3 +111,4 @@ if(BMIMark > BMIJohn){
 }else{
     console.log("John's BMI is higher than Mark's!")
 }
+
