@@ -100,8 +100,8 @@
 
 
 //challenge 2
-const massMark = 95;
-const heightMark = 1.88;
+const massMark = 96;
+const heightMark = 1.86;
 const masssJohn = 85;
 const heightJohn = 1.76;
 
