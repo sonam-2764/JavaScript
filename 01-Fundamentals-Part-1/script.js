@@ -102,7 +102,7 @@
 //challenge 2
 const massMark = 96;
 const heightMark = 1.86;
-const masssJohn = 85;
+const massJohn = 85;
 const heightJohn = 1.76;
 
 const BMIMark = massMark / heightMark ** 2;
