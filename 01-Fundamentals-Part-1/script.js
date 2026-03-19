@@ -99,18 +99,89 @@
 
 
 
-//challenge 2
-const massMark = 96;
-const heightMark = 1.86;
-const massJohn = 85;
-const heightJohn = 1.76;
+// //challenge 2
+// const massMark = 96;
+// const heightMark = 1.86;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
 
-if (BMIMark > BMIJohn) {
-    console.log("Mark's BMI is higher than John's!")
-} else {
-    console.log("John's BMI is higher than Mark's!")
-}
+// if (BMIMark > BMIJohn) {
+//     console.log("Mark's BMI is higher than John's!")
+// } else {
+//     console.log("John's BMI is higher than Mark's!")
+// }
+//     console.log(`Mark's BMI (${BMIMark}) is higher than John's!`)    
+
+
+
+
+
+// //Type Conversion and coercion
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// console.log(Number('Sonam'));//NaN means not a number
+// console.log(typeof NaN);
+// console.log(String(23), 23);
+// //type coercion
+// console.log('I am' + 23 +'years old');
+// console.log('I am' + '23' + 'years old');
+// console.log('23' + '10' + 3);
+// console.log('23' - '10' - 3);//converted in numbers
+
+// let n = '1' + 1; //11
+// n = n -1;
+// console.log(n); //10
+// console.log(2+3+4+'5'); //9 and 5 gets concadinated
+
+
+
+
+
+
+// //Truthy and falsy values
+// //falsy values are the values which are not exactly false but will become false if we try to convert them to boolean
+// // 5 falsy values: 0, '', undefined, null ,NaN
+// //else all are truthy value
+// console.log(Boolean(0));
+// console.log(Boolean (undefined));
+
+// const money=0;
+// if(money){
+//     console.log("Don't spend it all");
+// }else{
+//     console.log("you should get a job");
+// }
+
+// let height;
+// if (height){
+//     console.log("height is defined");
+// }else{
+//     console.log("height is undefined");
+// }
+
+
+
+
+
+// //Difference between =, ==, ===
+// //= is assignment operator
+// //== and === are comparison operator where === is strict and == is loose
+// //eg. '18' == 18 is true where '18' is string literal and 18 is an integer
+// //'18' === 18 is false as both types are unequal ... string couldn't be equal to integer
+// const favourite = /*Number*/ (prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+// if (favourite === 23){
+//     console.log('cool! 23 ia an amazing number')
+// } else {
+//     console.log("number is not 23")
+// }
+
+
+
 
