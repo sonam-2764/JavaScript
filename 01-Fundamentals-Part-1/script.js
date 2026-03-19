@@ -183,5 +183,15 @@
 // }
 
 
+//Boolean operator
+const hasDriversLicense = true;
+const hasGoodVision = true;
 
-
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense  || hasGoodVision);
+console.log(!hasDriversLicense && hasGoodVision);
+if (hasDriversLicense && hasGoodVision){
+    console.log('Sarah is able to drive!');
+} else {
+    console.log("someone else should drive");
+}
