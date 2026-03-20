@@ -257,7 +257,7 @@
 
 
 
-
+// //switch
 // const day = 'monday';
 // switch(day) {
 //     case 'monday': // day === 'monday'
@@ -280,3 +280,27 @@
 //         default:
 //             console.log('not a valid day')
 // }
+
+
+
+
+
+
+
+
+
+// //ternary
+// const age = 23;
+// age>=18 ? console.log('I like tea') : console.log('I like chocolate');
+
+
+
+
+
+
+// //coding challenge 4
+// var bill;
+// bill = 275;
+// bill = 430;
+// const tip = (50 <= bill <= 300) ? bill * (15/100) : bill * (20/100);
+// console.log(`the bill was ${bill}, the tip was ${tip} and the total value ${bill + tip}`);
