@@ -311,12 +311,12 @@
 
 
 
-//assignment logical operators
-if (language === 'english' && population < 50 && !isIsland){
-    console.log(`you should live in ${country}`);
-} else {
-    console.log(`${country} does not meet your criteria`);
-}
+// //assignment logical operators
+// if (language === 'english' && population < 50 && !isIsland){
+//     console.log(`you should live in ${country}`);
+// } else {
+//     console.log(`${country} does not meet your criteria`);
+// }
 
 
 
