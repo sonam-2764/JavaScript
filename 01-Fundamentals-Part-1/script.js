@@ -99,6 +99,8 @@
 
 
 
+
+
 // //challenge 2
 // const massMark = 96;
 // const heightMark = 1.86;
@@ -114,6 +116,8 @@
 //     console.log("John's BMI is higher than Mark's!")
 // }
 //     console.log(`Mark's BMI (${BMIMark}) is higher than John's!`)    
+
+
 
 
 
@@ -137,6 +141,8 @@
 // n = n -1;
 // console.log(n); //10
 // console.log(2+3+4+'5'); //9 and 5 gets concadinated
+
+
 
 
 
@@ -168,6 +174,8 @@
 
 
 
+
+
 // //Difference between =, ==, ===
 // //= is assignment operator
 // //== and === are comparison operator where === is strict and == is loose
@@ -183,15 +191,63 @@
 // }
 
 
-//Boolean operator
-const hasDriversLicense = true;
-const hasGoodVision = true;
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense  || hasGoodVision);
-console.log(!hasDriversLicense && hasGoodVision);
-if (hasDriversLicense && hasGoodVision){
-    console.log('Sarah is able to drive!');
-} else {
-    console.log("someone else should drive");
-}
+
+
+
+
+
+// //Boolean operator
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense  || hasGoodVision);
+// console.log(!hasDriversLicense && hasGoodVision);
+// if (hasDriversLicense && hasGoodVision){
+//     console.log('Sarah is able to drive!');
+// } else {
+//     console.log("someone else should drive");
+// }
+
+
+
+
+
+
+
+
+// //Coding challenge 3
+// const avgDolphin = (96+108+89)/3;
+// console.log(avgDolphin);
+
+// const avgKoalas = (88+91+110)/3;
+// console.log(avgKoalas);
+
+// if(avgDolphin > avgKoalas){
+//     console.log('Dolphin is winner');
+// }else if (avgDolphin < avgKoalas){
+//     console.log('Koalas is winner');
+// } else{
+//     console.log('draw');
+// }
+// const avgDolphin1 = (97+112+101)/3;
+// const avgKoalas1 = (109 +95+123)/3;
+// if((avgDolphin1 > avgKoalas1) && (avgDolphin1 >= 100)){
+//     console.log('Dolphin is winner');
+// } else if ((avgDolphin1 < avgKoalas1) && (avgKoalas1 >= 100)){
+//     console.log('Koalas is winner');
+// } else {
+//     console.log('draw');
+// }
+// const avgKoalas2 = (109+95+106)/3;
+// if((avgDolphin1 > avgKoalas2) && (avgDolphin1 >= 100)){
+//     console.log('Dolphin is winner');
+// } else if ((avgDolphin1 < avgKoalas2) && (avgKoalas2 >= 100)){
+//     console.log('Koalas is winner');
+// } else if (avgDolphin1 === avgKoalas2 && avgDolphin>= 100 && avgKoalas2 >= 100 ) {
+//     console.log('Both wins the trophy');
+// } else {
+//     console.log('No one wins the trophy ');
+// }
+
