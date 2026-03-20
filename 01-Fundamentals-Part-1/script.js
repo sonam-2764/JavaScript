@@ -251,3 +251,32 @@
 //     console.log('No one wins the trophy ');
 // }
 
+
+
+
+
+
+
+
+// const day = 'monday';
+// switch(day) {
+//     case 'monday': // day === 'monday'
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+//     break;
+// case 'tuesday':
+//     console.log('prepare theory video');
+//     break;
+//     case 'wednesday'://both will give write code examples
+//     case 'thursday':
+//         console.log('write code examples');
+//     case'friday':
+//         console.log('record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('enjoy the weekend');
+//         break;
+//         default:
+//             console.log('not a valid day')
+// }
