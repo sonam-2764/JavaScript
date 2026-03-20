@@ -304,3 +304,45 @@
 // bill = 430;
 // const tip = (50 <= bill <= 300) ? bill * (15/100) : bill * (20/100);
 // console.log(`the bill was ${bill}, the tip was ${tip} and the total value ${bill + tip}`);
+
+
+
+
+
+
+
+//assignment logical operators
+if (language === 'english' && population < 50 && !isIsland){
+    console.log(`you should live in ${country}`);
+} else {
+    console.log(`${country} does not meet your criteria`);
+}
+
+
+
+
+
+
+
+// // assignment switch statement
+// const language = 'hindi';
+// switch(language){
+//     case chinese:
+//     case mandarian:
+//         console.log('Most number of native speaker');
+//         break;
+//     case spanish:
+//         console.log('2nd place in number of native speakers');
+//         break;
+//     case english:
+//         console.log('3rd place');
+//         break;
+//     case hindi:
+//         console.log('Number 4');
+//         break;
+//     case arabic:
+//         console.log('5th most spoken number');
+//         break;
+//     default:
+//         console.log('Great language too');
+// }
