@@ -37,3 +37,37 @@
 // const data1 = describeCountry('India', 30000000, 'NewDelhi');
 // const data2 = describeCountry('Canada', 1000000, 'newYork');
 // console.log(data1, data2);
+
+
+
+// //function declaration // if we use before declaring then declares it still works
+// function calcAge1(birthYeah){
+//     // const age = 2037 - birthYeah;
+//     // return age; OR
+//     return 2037 - birthYeah;
+// }
+// const age1 =calcAge1(1991);
+
+// //function expression//doesn't work before declaring
+// const calcAge2 = function (birthYeah){
+//     return 2037 - birthYeah;}
+//     const age2 = calcAge2(1991);
+//     console.log(age1, age2);
+
+//     //assignment
+//     //using function declaration
+//     function percentageOfWorld1(population){
+//         return (population/7900)* 100;
+//     }
+//     const china = percentageOfWorld1(1441);
+//     console.log(china);
+//     const India = percentageOfWorld1(1220);
+//     console.log(India);
+//     //using function expression
+// const populationOfWorld2 = function(population){
+//     return (population/7900)* 100;
+// }
+//     const china1 = populationOfWorld2(1441);
+//     console.log(china1);
+//     const india = populationOfWorld2(1220);
+//     console.log(india);
