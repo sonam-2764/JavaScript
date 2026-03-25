@@ -76,7 +76,32 @@
 
 
 
-//arrow function //another way of representing function
-    const calcAge3 = birthYeah => 2037 - birthYeah;
-    const age3 = calcAge3(1991);
-    console.log(age3);
+// //arrow function //another way of representing function
+//     const calcAge3 = birthYeah => 2037 - birthYeah;//we don't need brackets here
+//     const age3 = calcAge3(1991);
+//     console.log(age3);
+
+//     const yearsUntilRetirement = birthYeah => {
+//         const age = 2037 - birthYeah;
+//         const retirement = 65 - age;
+//         return retirement;
+//     }
+//     //instead of storing it in variable we directly print the value
+//     console.log(yearsUntilRetirement(1991));
+
+    // //if we had multiple paramenter
+    // const yearsUntilRetirement = (birthYeah, firstname) => {
+    //     const age = 2037 - birthYeah;
+    //     const retirement = 65 - age;
+    //     return `${firstname} retires in ${retirement} years`;
+    // }
+    // console.log(yearsUntilRetirement(1991, 'Sonam'));
+    // console.log(yearsUntilRetirement(1980, 'Shona'));
+
+    // //assignment
+    // const percentageOfWorld3 = population => (population/7900)* 100;
+    // console.log(percentageOfWorld3(1441));
+    // const china = percentageOfWorld3(1441);
+    // const india = percentageOfWorld3(1220);
+    // const usa = percentageOfWorld3(332);
+    // console.log(china, india, usa);
